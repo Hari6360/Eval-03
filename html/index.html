@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-commerce App</title>
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body>
+		<header>
+			<h1><a href="index.html">Home</a></h1>
+			<h1><a href="cart.html">Cart</a></h1>
+		</header>
+		<main>
+			<div id="filters">
+				<select id="category-filter">
+					<option value="">All Categories</option>
+					<option value="">Laptop</option>
+					<option value="">Mobile</option>
+					<option value="">Head Phones</option>
+					<option value="">Speaker</option>
+					<option value="">Smart Tv</option>
+				</select>
+				<select id="sort-price">
+					<option value="">Sort by Price</option>
+					<option value="asc">Low to High</option>
+					<option value="desc">High to Low</option>
+				</select>
+			</div>
+			<div id="product-list"></div>
+			<div id="pagination">
+				<button id="prev-page">Previous</button>
+				<span id="page-info"></span>
+				<button id="next-page">Next</button>
+			</div>
+		</main>
+		<script src="../scripts/index.js"></script>
+	</body>
+</html>
